@@ -3,7 +3,7 @@ public class AsalCarpanlaraAyirma {
     public static void main(String[] args) {
 
         int carpan = 2;
-        long sayi = 600851475143L; //Javada uzun degismez degerler L ile biter.
+        double sayi = 600851475143L; //Javada uzun degismez degerler L ile biter. 600851475143L
 
         while (sayi / carpan != 1) {
             if (sayi % carpan == 0) {
